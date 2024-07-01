@@ -1,8 +1,27 @@
+#include <iostream>
+
+// Function declaration
+void myFunction();
+
+int main() {
+    // Call the function
+    myFunction();
+
+    return 0;
+}
+
+// Function definition
+void myFunction() {
+    // Your code here
+    std::cout << "Hello from myFunction!" << std::endl;
+}
 
 
 /*
 import tkinter as tk
 from tkinter import font
+
+
 from PIL import Image, ImageTk
 import requests
 import os
