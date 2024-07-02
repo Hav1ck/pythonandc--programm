@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+#include <curlpp/cURLpp.hpp>
+#include <curlpp/Options.hpp>
 
 // Function declaration
 void myFunction();
@@ -11,12 +14,18 @@ int main() {
 }
 
 // Function definition
-void myFunction() {
-    // Your code here
+void get_ip() {
     std::cout << "Hello from myFunction!" << std::endl;
 }
 
+void get_weather(string location_lon, string location_lat, string api_timezone) {
+    std::cout << "Hello from myFunction!" << std::endl;
+    return 
+}
 
+void get_time() {
+
+}
 /*
 import tkinter as tk
 from tkinter import font
